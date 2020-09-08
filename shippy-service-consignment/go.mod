@@ -2,8 +2,6 @@ module github.com/ngunq/shippy/shippy-service-consignment
 
 go 1.13
 
-replace github.com/ngunq/shippy/shippy-service-consignment => ../shippy-service-consigment
-
 replace google.golang.org/grpc => google.golang.org/grpc v1.26.0
 
 require (
